@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  background-color: yellowgreen;
+  min-height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+nav {
+  float: right;
+}
+
+.logo img {
+  float: left;
+  background-color: yellowgreen;
+}
+
+.logo-name {
+
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: raleway;
+}
+
+ul li:hover {
+  color: beige;
+
+}
+
+.header {
+  background-color: yellowgreen;
+  min-height: 9vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(5, 4, 4);
+
+}
+
+.container1 {
+  background-color: black;
+  min-height: 86.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.b1 {
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  background-color: beige;
+  align-content: center;
+  border-radius: 50px;
+  border: 0;
+  margin: 1rem 0;
+  padding: 2rem 4rem;
+
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.b1:active {
+  transform: scale(0.96);
+}
+
+.b1:hover {
+  background-color: yellowgreen;
+}
+
+.b2 {
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  background-color: beige;
+  align-content: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  border: 0;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+
+  white-space: nowrap;
+}
+
+.b2:active {
+  transform: scale(0.96);
+}
+
+.b2:hover {
+  background-color: yellowgreen;
+}
+
+.b3 {
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  background-color: beige;
+  align-content: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  border: 0;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+
+  white-space: nowrap;
+}
+
+.b3:active {
+  transform: scale(0.96);
+}
+
+.b3:hover {
+  background-color: yellowgreen;
+}
+
+.b4 {
+  color: black;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  background-color: beige;
+  align-content: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+  border: 0;
+  margin: 1rem 0;
+  padding: 2rem 3rem;
+
+  white-space: nowrap;
+}
+
+.b4:active {
+  transform: scale(0.96);
+}
+
+.b4:hover {
+  background-color: yellowgreen;
+}
+
+.img-google {
+  width: 25px;
+  height: 25px;
+  padding-right: 15px;
+
+
+}
+
+.img-github {
+  width: 25px;
+  height: 25px;
+  padding-right: 15px;
+
+
+}
+
+.img-phone {
+  width: 30px;
+  height: 30px;
+  padding-right: 15px;
+
+}
+
+.img-facebook {
+  width: 30px;
+  height: 30px;
+  padding-right: 15px;
+
+}
+
+.otp-container {
+  @apply flex justify-between gap-2;
+}
+
+.otp-container input {
+  @apply !mr-0 flex-1 py-5 outline-none;
+}
